@@ -1,1 +1,1 @@
-# Sutdio-Ghibli-movies-list
+# Studio-Ghibli-movies-list
