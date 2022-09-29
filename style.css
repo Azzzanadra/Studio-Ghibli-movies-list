@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    background: lightgray;
+}
+header{
+    text-align: center;
+}
+body > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+tr{
+    display: flex;
+    flex-direction: column;
+}
+table{
+    width: 50%;
+}
+button{
+    font-size: 1.5rem;
+    background: coral;
+    border-style: solid;
+    border-color: rgba(10, 137, 179, 0.75);
+    width: 100%;
+    margin-bottom: 0;
+    padding: 10px 0;
+    border-radius: 6px;
+
+}
+header{
+    font-size: 26px;
+}
+button, #en,header{
+    font-family: 'Montserrat', sans-serif;
+}
+section > p, section > div{
+    font-family: 'Roboto Slab', serif;
+}
+#cover{
+    height: 500px;
+}
+#en, #jap{
+    text-align: center;
+    font-size: 24px;
+}
+#banner{
+    height: 500px;
+}
+img{
+    width: 100%;
+}
+section{
+    width: 50%;
+}
+p + div{
+    display: flex;
+    flex-direction: column;
+}
